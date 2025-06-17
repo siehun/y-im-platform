@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-dubbo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-dubbo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-friend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-friend/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-application/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-domain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-infrastructure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-infrastructure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-interfaces/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-interfaces/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-group/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-group/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-application/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-domain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-infrastructure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-infrastructure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-interfaces/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-interfaces/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-message/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-message/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-domain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-infrastructure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-infrastructure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-interfaces/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-interfaces/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-application/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-domain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-interfaces/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-interfaces/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-starter/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
