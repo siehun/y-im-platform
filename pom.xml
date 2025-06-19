@@ -15,12 +15,6 @@
         <module>y-im-platform-group</module>
         <module>y-im-platform-user</module>
         <module>y-im-platform-message</module>
-        <module>y-im-platform-group/y-im-platform-group-application</module>
-        <module>y-im-platform-message/y-im-platform-message-application</module>
-        <module>y-im-platform-message/y-im-platform-message-interfaces</module>
-        <module>y-im-platform-message/y-im-platform-message-domain</module>
-        <module>y-im-platform-message/y-im-platform-message-starter</module>
-        <module>y-im-platform-message/y-im-platform-message-infrastructure</module>
     </modules>
 
     <properties>
