@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b5ce7b95-2bbf-40a1-8ced-977c95031d38" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/consumer/IMGroupMessageRocketMQEventConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/consumer/IMPrivateMessageRocketMQEventConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/ice/ICEServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/ice/ICEServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/listener/GroupMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/listener/PrivateMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/minio/MinioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/minio/impl/MinioServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/service/GroupMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/service/PrivateMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/service/WebrtcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/service/impl/GroupMessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/service/impl/PrivateMessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/service/impl/WebrtcServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/tx/IMMessageTxListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-domain/src/main/java/io/yue/im/platform/message/domain/event/IMGroupMessageTxEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-domain/src/main/java/io/yue/im/platform/message/domain/event/IMMessageTxEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-domain/src/main/java/io/yue/im/platform/message/domain/event/IMPrivateMessageTxEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-domain/src/main/java/io/yue/im/platform/message/domain/repository/GroupMessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-domain/src/main/java/io/yue/im/platform/message/domain/repository/PrivateMessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-domain/src/main/java/io/yue/im/platform/message/domain/service/GroupMessageDomainService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-domain/src/main/java/io/yue/im/platform/message/domain/service/PrivateMessageDomainService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-domain/src/main/java/io/yue/im/platform/message/domain/service/impl/GroupMessageDomainServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-domain/src/main/java/io/yue/im/platform/message/domain/service/impl/PrivateMessageDomainServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-interfaces/src/main/java/io/yue/im/platform/message/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-interfaces/src/main/java/io/yue/im/platform/message/controller/GroupMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-interfaces/src/main/java/io/yue/im/platform/message/controller/PrivateMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-interfaces/src/main/java/io/yue/im/platform/message/controller/WebrtcController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-starter/src/main/java/io/yue/im/platform/message/IMPlatformMessageStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-starter/src/main/java/io/yue/im/platform/message/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-starter/src/main/java/io/yue/im/platform/message/config/LongToStringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-starter/src/main/java/io/yue/im/platform/message/config/MinioClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-starter/src/main/java/io/yue/im/platform/message/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-starter/src/main/java/io/yue/im/platform/message/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-starter/src/main/java/io/yue/im/platform/message/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-starter/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-dubbo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-dubbo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-interfaces/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-interfaces/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-group/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-group/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-interfaces/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-interfaces/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-message/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-message/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-interfaces/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-interfaces/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-interfaces/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-interfaces/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-starter/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\maven\apache-maven-3.9.4" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.9.4\conf\settings-binghe.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2zaDxRkzucYRQQjPsd5zzkUfqAq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.y-im-platform [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.y-im-platform [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.IMPlatformFriendStarter.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.IMPlatformGroupStarter.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.IMPlatformMessageStarter.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.IMPlatformUserStarter.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/fuck_learn/binghe/im-jd/dev/y-im-platform&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;redis&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.IMPlatformGroupStarter">
+    <configuration name="IMPlatformFriendStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="y-im-platform-friend-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.yue.im.platform.friend.IMPlatformFriendStarter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IMPlatformGroupStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="y-im-platform-group-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.yue.im.platform.group.IMPlatformGroupStarter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IMPlatformMessageStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="y-im-platform-message-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.yue.im.platform.message.IMPlatformMessageStarter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IMPlatformUserStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="y-im-platform-user-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.yue.im.platform.user.IMPlatformUserStarter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.24807.4" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.24807.4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5ce7b95-2bbf-40a1-8ced-977c95031d38" name="Changes" comment="" />
+      <created>1751960537058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751960537058</updated>
+      <workItem from="1751960538172" duration="15130000" />
+      <workItem from="1752140503134" duration="11002000" />
+      <workItem from="1752221140051" duration="15153000" />
+      <workItem from="1752277938108" duration="938000" />
+      <workItem from="1752279673897" duration="3828000" />
+      <workItem from="1752289814134" duration="64000" />
+      <workItem from="1752289944574" duration="4048000" />
+      <workItem from="1752309552806" duration="1308000" />
+      <workItem from="1752316040889" duration="1316000" />
+      <workItem from="1752325249434" duration="10410000" />
+      <workItem from="1752359709542" duration="18140000" />
+      <workItem from="1752422799891" duration="1545000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/consumer/IMGroupMessageRocketMQEventConsumer.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-application/src/main/java/io/yue/im/platform/message/application/consumer/IMGroupMessageRocketMQEventConsumer.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../Maven_Repository/.m2/repository/io/yue/y-im-sdk-interfaces/1.0-SNAPSHOT/y-im-sdk-interfaces-1.0-SNAPSHOT-sources.jar!/io/yue/im/sdk/interfaces/sender/impl/DefaultIMSender.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
