@@ -24,9 +24,10 @@
     <schema id="17" parent="1" name="9"/>
     <set id="18" parent="2" name="platform:friend:set:204400886464778240"/>
     <set id="19" parent="2" name="platform:friend:set:204401691418824704"/>
-    <sorted-set id="20" parent="2" name="risk:control:/user-server/user/terminal/online2044016914188247040"/>
-    <sorted-set id="21" parent="2" name="risk:control:127.0.0.1"/>
-    <string id="22" parent="2" name="platform:group:vo:single:84f71d02aa2dc5010b712428f3a37123"/>
-    <string id="23" parent="2" name="platform:member:vo:list:204788855856041984"/>
+    <set id="20" parent="2" name="platform:friend:set:204404245036929024"/>
+    <string id="21" parent="2" name="im:readed:group:position:204788855856041984:204404245036929024"/>
+    <string id="22" parent="2" name="im:readed:group:position:205790610194567168:204400886464778240"/>
+    <string id="23" parent="2" name="im:readed:group:position:205790610194567168:204401691418824704"/>
+    <string id="24" parent="2" name="im:readed:group:position:205790610194567168:204404245036929024"/>
   </database-model>
 </dataSource>

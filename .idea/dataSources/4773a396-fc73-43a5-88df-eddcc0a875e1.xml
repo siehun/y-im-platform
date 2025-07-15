@@ -811,12 +811,12 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <collation id="223" parent="1" name="gb18030_unicode_520_ci">
       <Charset>gb18030</Charset>
     </collation>
-    <schema id="224" parent="1" name="bh_im">
-      <LastIntrospectionLocalTimestamp>2025-07-12.00:38:51</LastIntrospectionLocalTimestamp>
-      <CollationName>utf8mb4_unicode_ci</CollationName>
-    </schema>
-    <schema id="225" parent="1" name="information_schema">
+    <schema id="224" parent="1" name="information_schema">
       <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="225" parent="1" name="bh_im">
+      <LastIntrospectionLocalTimestamp>2025-07-15.13:51:02</LastIntrospectionLocalTimestamp>
+      <CollationName>utf8mb4_unicode_ci</CollationName>
     </schema>
     <schema id="226" parent="1" name="mysql">
       <CollationName>utf8mb4_unicode_ci</CollationName>
@@ -843,32 +843,32 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <user id="233" parent="1" name="root"/>
     <user id="234" parent="1" name="binghe"/>
     <user id="235" parent="1" name="thoughts-nacos"/>
-    <table id="236" parent="224" name="im_friend">
+    <table id="236" parent="225" name="im_friend">
       <Comment>好友</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="237" parent="224" name="im_group">
+    <table id="237" parent="225" name="im_group">
       <Comment>群</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="238" parent="224" name="im_group_member">
+    <table id="238" parent="225" name="im_group_member">
       <Comment>群成员</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="239" parent="224" name="im_group_message">
+    <table id="239" parent="225" name="im_group_message">
       <Comment>群消息</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="240" parent="224" name="im_private_message">
+    <table id="240" parent="225" name="im_private_message">
       <Comment>私聊消息</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="241" parent="224" name="im_user">
+    <table id="241" parent="225" name="im_user">
       <Comment>用户</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
@@ -931,7 +931,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
     <column id="254" parent="236" name="id">
-      <AutoIncrement>204402329179525121</AutoIncrement>
+      <AutoIncrement>205790492733083649</AutoIncrement>
       <Comment>id</Comment>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -985,7 +985,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="264" parent="237" name="id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>205790687118102529</AutoIncrement>
       <Comment>id</Comment>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1049,7 +1049,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="275" parent="238" name="id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>205791086344540162</AutoIncrement>
       <Comment>id</Comment>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1115,7 +1115,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="287" parent="239" name="id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>205792589184634881</AutoIncrement>
       <Comment>id</Comment>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1182,7 +1182,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="299" parent="240" name="id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>205803390213689345</AutoIncrement>
       <Comment>id</Comment>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1238,7 +1238,7 @@ recv_id</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="309" parent="241" name="id">
-      <AutoIncrement>204564393948745729</AutoIncrement>
+      <AutoIncrement>204958463858708481</AutoIncrement>
       <Comment>id</Comment>
       <NotNull>1</NotNull>
       <Position>1</Position>
