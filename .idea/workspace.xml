@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5ce7b95-2bbf-40a1-8ced-977c95031d38" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y-im-platform-dubbo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-dubbo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-application/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-domain/pom.xml" afterDir="false" />
@@ -109,7 +110,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.IMPlatformGroupStarter">
+  <component name="RunManager" selected="Spring Boot.IMPlatformFriendStarter">
     <configuration name="IMPlatformFriendStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="y-im-platform-friend-starter" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.yue.im.platform.friend.IMPlatformFriendStarter" />
@@ -168,6 +169,7 @@
       <workItem from="1752359709542" duration="18140000" />
       <workItem from="1752422799891" duration="1545000" />
       <workItem from="1752485388532" duration="359000" />
+      <workItem from="1752566197761" duration="719000" />
     </task>
     <servers />
   </component>
