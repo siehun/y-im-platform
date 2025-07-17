@@ -15,6 +15,7 @@
           <node kind="schema">
             <name qname="bh_im" />
             <name qname="nacos" />
+            <name qname="pratice" />
           </node>
         </introspection-scope>
       </schema-mapping>
