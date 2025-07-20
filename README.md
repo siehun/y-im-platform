@@ -8,6 +8,13 @@
 
 [文档](https://www.yuque.com/seihun/pax21g)
 
+其他模块项目地址
+
+1. [AI](https://github.com/siehun/y-ai-agent)
+2. [即时通讯服务](https://github.com/siehun/y-im-server)
+3. [SDK](https://github.com/siehun/y-im-sdk)
+4. [common](https://github.com/siehun/y-im-common)
+
 分布式IM即时通讯系统本质上就是对线上聊天和用户的管理，针对聊天本身来说，最核心的需求就是：**发送文字、表情、图片、文件、语音、消息缓存、消息存储、消息未读、已读、撤回，离线消息、历史消息、单聊、群聊，多端同步。**
 
 对用户管理来说，存在的需求包含：**添加好友、查看还有列表、删除好友、查看好友信息、创建群聊、加入群聊、查看群成员信息、@群成员、退出群聊、修改群昵称、拉人进群、踢人出群、解散群聊、填写群公告、修改群备注以及其他用户相关的需求等。**
