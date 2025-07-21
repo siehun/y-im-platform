@@ -6,14 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b5ce7b95-2bbf-40a1-8ced-977c95031d38" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4773a396-fc73-43a5-88df-eddcc0a875e1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4773a396-fc73-43a5-88df-eddcc0a875e1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y-im-platform-dubbo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-dubbo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-application/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-domain/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-infrastructure/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-interfaces/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-interfaces/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-friend/y-im-platform-friend-starter/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y-im-platform-group/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-group/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-application/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-group/y-im-platform-group-domain/pom.xml" afterDir="false" />
@@ -26,12 +24,6 @@
       <change beforePath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-infrastructure/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-interfaces/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-interfaces/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-message/y-im-platform-message-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y-im-platform-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-infrastructure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-interfaces/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-interfaces/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/y-im-platform-user/y-im-platform-user-starter/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +167,7 @@
       <workItem from="1752577100474" duration="77000" />
       <workItem from="1752582894007" duration="6011000" />
       <workItem from="1752724157407" duration="3304000" />
+      <workItem from="1753081750292" duration="1066000" />
     </task>
     <servers />
   </component>
