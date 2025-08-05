@@ -10,11 +10,23 @@
     </parent>
 
     <artifactId>y-im-platform-message</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>y-im-platform-message-domain</module>
+        <module>y-im-platform-message-infrastructure</module>
+        <module>y-im-platform-message-application</module>
+        <module>y-im-platform-message-interfaces</module>
+        <module>y-im-platform-message-starter</module>
+    </modules>
+
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
 </project>

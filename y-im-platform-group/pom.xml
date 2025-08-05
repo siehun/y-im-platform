@@ -16,6 +16,7 @@
         <module>y-im-platform-group-starter</module>
         <module>y-im-platform-group-domain</module>
         <module>y-im-platform-group-infrastructure</module>
+        <module>y-im-platform-group-application</module>
     </modules>
 
     <properties>
